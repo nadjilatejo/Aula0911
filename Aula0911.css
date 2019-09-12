@@ -1,0 +1,107 @@
+h3.titulo3{
+    color:Tomato;
+    font-size: 4em;
+    initial-letter: 10px;
+    border-top-width: 10px;
+    border-top-color: black;
+    border-top-style: dashed;
+    border-right-width: 10px;
+    border-right-color: #5900ff;
+    border-right-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: black;
+    border-bottom-style: double;
+    border-left-width: 10px;
+    border-left-color: #5900ff;
+    border-left-style: dotted;
+    letter-spacing: 50px;
+    text-align: center
+}
+h1.titulo4{
+    color: blueviolet;
+    font-size: 8em;
+    text-align: center
+}
+div{
+    border: 1px solid black;
+}
+div.div1{
+    border: 1px solid purple;
+    border: radius 4px;
+    list-style-type: none;
+    margin:4px;
+    padding:2px;
+    height: 200px;
+    width: 50%;
+    background: purple;    
+}
+div.div2{
+    border: 1px solid red;
+    height: 200px;
+    width: 50%;
+    background: red;
+}
+div.div3{
+    border: 1px solid orange;
+    height: 180px;
+    width: 50%;
+    background: orange;
+}
+div.div4{
+    border: 1px solid red;
+    height: 320px;
+    width: 50%;
+    background: coral;
+    display:inline;
+}
+div.div5{
+    border: 1px solid orange;
+    height: 200px;
+    width: 50%;
+    background: greenyellow; 
+    display:inline;
+}
+div.div6{
+    border: 1px solid purple;
+    height: 270px;
+    width: 50%;
+    background: olive;
+    display:inline;
+}
+div.div7{
+    color: olivedrab;
+    initial-letter: 10px;
+    border: 1px solid black;
+    height: 70px;
+    width: 90%;
+    background: black; 
+    text-align: center
+}
+#main{
+    margin-left: 4px
+}
+#leftsidebar{
+    float:none;
+    width:auto;
+}
+#menulist{
+    margin:0;
+    padding:0;
+}
+.menuitem{
+    background:black;
+    border: 1px solid #d4d4d4;
+    border-radius:4px;
+    list-style-type:none;
+    margin: 4px;
+    padding: 2px;
+}
+@media screen and (min-width:480px){
+    #leftsidebar{width:200px; float:left;}
+    #main{margin-left:216px;}
+}
+p#para1{
+    color: yellowgreen;
+    font-size: 1em;
+    text-align: left
+}
